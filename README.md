@@ -1,3 +1,3 @@
 #Calculator
 
-https://travis-ci.org/LeakySum/travis.svg?branch=master
+[![Build Status](https://travis-ci.org/LeakySum/calculator.svg?branch=master)](https://travis-ci.org/LeakySum/calculator)
