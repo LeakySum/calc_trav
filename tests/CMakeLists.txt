@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 2.8)
 
 
 
-set(TESTS_FOR_PROJECT calculator-test)
+set(TESTS_FOR_PROJECT calc_trav.)
 
 
 
