@@ -2,12 +2,6 @@
 #include "calculator.hpp"
 using namespace std;
 
-
-
-
-
-
-
 int main() {
     double a, b;
     cout <<"Enter: a, b"<< endl;
