@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8)
 
-set(TESTS_FOR_PROJECT calc_trav)
+set(TESTS_FOR_PROJECT calctrav)
 
 project(${TESTS_FOR_PROJECT}_tests)
 
