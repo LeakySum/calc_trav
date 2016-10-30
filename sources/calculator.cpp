@@ -29,6 +29,6 @@ double square (double a){
 double power (double a, unsigned int b){
     int x=a;
     if (b==0) a=0; else{
-        for(int i=1; i<b; i++){a*=x;};}
+        for(int i=1; i<b; i++){a=a*x;};}
     return(a);
 }
