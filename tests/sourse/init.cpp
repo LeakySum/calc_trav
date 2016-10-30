@@ -58,13 +58,4 @@ SCENARIO("calculator power", "[power]") {
 	REQUIRE( rv == 100);
 }
 
-SCENARIO("calculator power", "[power]") {
-    double a = 10;
-    unsigned int b = 0;
-    
-    
-    double rv = power( a, b );
-    
-	REQUIRE( rv == 1);
-}
 
