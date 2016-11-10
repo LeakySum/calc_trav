@@ -10,7 +10,7 @@ SCENARIO("calculator sum", "[sum]") {
 	REQUIRE( rv == 12);
 }
 
-SCENARIO("calculato subtraction ", "[subtraction]") {
+SCENARIO("calculato sub ", "[sub]") {
     double a = 10;
    double b = 2;
     
@@ -19,7 +19,7 @@ SCENARIO("calculato subtraction ", "[subtraction]") {
 	REQUIRE( rv == 8);
 }
 
-SCENARIO("calculator division", "[division]") {
+SCENARIO("calculator divis", "[divis]") {
    double a = 10;
     double b = 2;
     
@@ -28,7 +28,7 @@ SCENARIO("calculator division", "[division]") {
 	REQUIRE( rv == 5);
 }
 
-SCENARIO("calculator multyplication", "[multyplication]") {
+SCENARIO("calculator mult", "[mult]") {
     double b = 10;
     double a = 2;
     
