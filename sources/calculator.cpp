@@ -1,22 +1,22 @@
-double sum (double a, double b){
+double sum (float a, float b){
     return a+b;
 }
 
-double sub (double a, double b){
+double sub (float a, float b){
     return a-b;
 }
 
-double div (double a, double b){
+double div (float a, float b){
     if (b==0) {
         return(0);} else
-        return a/b;
+        return (float)a/b;
 }
 
-double mult (double a, double b){
+double mult (float a, float b){
     return a*b;
 }
 
-double sq (double a){
+double sq (float a){
     double x=1; double y;
     int i=0;
     while(1) {
@@ -27,9 +27,9 @@ double sq (double a){
 
     return(x);
 }
-double pow (double a, double b){
+double pow (float a, float b){
     int x=a;
     if (b==0) a=0; else{
         for(int i=1; i<b; i++){a=a*x;};}
-    return a;
+    return (double) a;
 }
