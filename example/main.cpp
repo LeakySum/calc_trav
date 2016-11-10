@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-    double a, b;
+    float a, b;
     cout <<"Enter: a, b"<< endl;
     cin >> a >> b ;
     cout << "a+b=" << sum(a,b) << endl;
