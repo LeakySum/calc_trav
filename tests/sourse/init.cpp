@@ -14,7 +14,7 @@ SCENARIO("calculato sub ", "[sub]") {
     double a = 10;
    double b = 2;
     
-    double rv = sum( a, b );
+    double rv = sub( a, b );
     
 	REQUIRE( rv == 8);
 }
@@ -23,7 +23,7 @@ SCENARIO("calculator divis", "[divis]") {
    double a = 10;
     double b = 2;
     
-    double rv = sum( a, b );
+    double rv = divis( a, b );
     
 	REQUIRE( rv == 5);
 }
@@ -33,7 +33,7 @@ SCENARIO("calculator mult", "[mult]") {
     double a = 2;
     
     
-   double rv = sum( a, b );
+   double rv = mult( a, b );
     
 	REQUIRE( rv == 20);
 }
