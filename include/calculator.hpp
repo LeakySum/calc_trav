@@ -1,6 +1,6 @@
-double sum (double a, double b);
-double sub (double a, double b);
-double div (double a, double b);
-double mult (double a, double b);
-double sq (double a);
-double pow (double a, double b);
+double sum (float a, float b);
+double sub (float a, float b);
+double div (float a, float b);
+double mult (float a, float b);
+double sq (float a);
+double pow (float a, float b);
