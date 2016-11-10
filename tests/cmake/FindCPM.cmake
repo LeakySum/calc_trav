@@ -1,4 +1,3 @@
-
 set(CPM_DIR "${CMAKE_CURRENT_BINARY_DIR}/cpm_packages" CACHE TYPE STRING)
   find_package(Git)
   if(NOT GIT_FOUND)
@@ -14,4 +13,4 @@ set(CPM_DIR "${CMAKE_CURRENT_BINARY_DIR}/cpm_packages" CACHE TYPE STRING)
       message(FATAL_ERROR "CPM failed to get the hash for HEAD")
     endif()
   endif()
-include(${CPM_DIR}/CPM.cmake)
+  include(${CPM_DIR}/CPM.cmake)
