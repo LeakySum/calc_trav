@@ -50,7 +50,7 @@ SCENARIO("calculator square", "[square]") {
 
 SCENARIO("calculator power", "[power]") {
     double a = 10;
-    unsigned int b = 2;
+    double b = 2;
     
     
     double rv = power( a, b );
