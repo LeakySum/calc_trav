@@ -6,7 +6,7 @@ double sub (double a, double b){
 }
 
 double divis (double a, double b){
-    if (b==0) {cout << "error\n";
+    if (b==0) {
         return(0);} else
         return(a/b);
 }
