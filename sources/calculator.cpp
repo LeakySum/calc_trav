@@ -1,17 +1,17 @@
 double sum (double a, double b){
     return(a+b);}
 
-double subtraction (double a, double b){
+double sub (double a, double b){
     return(a-b);
 }
 
-double division (double a, double b){
+double divis (double a, double b){
     if (b==0) {cout << "error\n";
         return(0);} else
         return(a/b);
 }
 
-double multyplication (double a, double b){
+double mult (double a, double b){
     return(a*b);
 }
 
