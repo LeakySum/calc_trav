@@ -8,9 +8,9 @@ int main() {
     cin >> a >> b ;
     cout << "a+b=" << sum(a,b) << endl;
     cout << "a-b=" << sub(a,b) << endl;
-    cout << "a/b=" << divis(a,b) << endl;
+    cout << "a/b=" << div(a,b) << endl;
     cout << "a*b=" << mult(a,b) << endl;
-    cout << "sqrt(a)=" << square(a) << endl;
-    cout << "a^b=" << power (a,b) << endl;
+    cout << "sqrt(a)=" << sq(a) << endl;
+    cout << "a^b=" << pow (a,b) << endl;
     return 0;
 }
