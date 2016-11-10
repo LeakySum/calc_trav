@@ -19,11 +19,11 @@ SCENARIO("calculato sub ", "[sub]") {
 	REQUIRE( rv == 8);
 }
 
-SCENARIO("calculator divis", "[divis]") {
+SCENARIO("calculator div", "[div]") {
    double a = 10;
     double b = 2;
     
-    double rv = divis( a, b );
+    double rv = div( a, b );
     
 	REQUIRE( rv == 5);
 }
@@ -38,7 +38,7 @@ SCENARIO("calculator mult", "[mult]") {
 	REQUIRE( rv == 20);
 }
 
-SCENARIO("calculator square", "[square]") {
+SCENARIO("calculator sq", "[sq]") {
    double a = 10;
     
     
@@ -48,12 +48,12 @@ SCENARIO("calculator square", "[square]") {
 	REQUIRE( rv == 3.16228);
 }
 
-SCENARIO("calculator power", "[power]") {
+SCENARIO("calculator pow", "[pow]") {
     double a = 10;
     double b = 2;
     
     
-    double rv = power( a, b );
+    double rv = pow( a, b );
     
 	REQUIRE( rv == 100);
 }
