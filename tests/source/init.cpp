@@ -45,7 +45,7 @@ float a = 10;
 
 double rv = sq( a );
 
-REQUIRE( rv == 3.16228);
+REQUIRE( rv == 3.1622776602);
 }
 
 SCENARIO("calculator pow", "[pow]") {
