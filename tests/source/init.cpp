@@ -48,7 +48,7 @@ double rv = sq( a );
 REQUIRE( rv == 3);
 }
 
-SCENARIO("calculator pow", "[pow]") {
+SCENARIO("calculator power", "[power]") {
 float a = 10;
 float b = 2;
 
