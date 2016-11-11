@@ -39,13 +39,13 @@ REQUIRE( rv == 20);
 }
 
 SCENARIO("calculator sq", "[sq]") {
-float a = 10;
+float a = 9;
 
 
 
 double rv = sq( a );
 
-REQUIRE( rv == 3.1622776602);
+REQUIRE( rv == 3);
 }
 
 SCENARIO("calculator pow", "[pow]") {
