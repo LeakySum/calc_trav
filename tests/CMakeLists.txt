@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8)
 
-set(TESTS_FOR_PROJECT calctrav)
+set(TESTS_FOR_PROJECT calculator-test)
 
 project(${TESTS_FOR_PROJECT}_tests)
 
@@ -12,6 +12,7 @@ file(GLOB ${PROJECT_NAME}_sources "${CMAKE_CURRENT_SOURCE_DIR}/source/*.cpp")
 
 find_package(${TESTS_FOR_PROJECT})
 include_directories(${${TESTS_FOR_PROJECT}_INCLUDE_DIRS}})
+
 
 
 include_directories(${CPM_INCLUDE_DIRS})
