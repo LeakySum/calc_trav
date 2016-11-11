@@ -7,8 +7,8 @@ double sub (float a, float b){
 }
 
 double div (float a, float b){
-    if (b==0) {
-        return(0);} else
+    if (b==0) return 0; 
+    else
         return (float)a/b;
 }
 
@@ -25,11 +25,12 @@ double sq (float a){
         if (x>=y) { i++; if (i>1) { break;}};
     }
 
-    return(x);
+    return x;
 }
 double pow (float a, float b){
     int x=a;
     if (b==0) a=0; else{
-        for(int i=1; i<b; i++){a=a*x;};}
+        for(int i=1; i<b; i++) a=a*x;
+    }
     return (double) a;
 }
