@@ -43,7 +43,7 @@ float a = 10;
 
 
 
-double rv = square( a );
+double rv = sq( a );
 
 REQUIRE( rv == 3.16228);
 }
