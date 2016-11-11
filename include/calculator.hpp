@@ -4,5 +4,5 @@ double sub (float a, float b);
 double div (float a, float b);
 double mult (float a, float b);
 double sq (float a);
-double powe (float a, float b);
+double pow (float a, float b);
 
